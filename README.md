@@ -17,14 +17,23 @@ As a result, the older version of the bioinformatics pipeline is no longer maint
 ### Required tools
 
 Trimmomatic-0.30
+
 Fastqc
+
 SPAdes-3.5.0
+
 Quast-2.3
+
 Dnaclust
+
 Fastx
+
 Blast-2.2.30
+
 Bowtie2-2.1.0
+
 Samtools-0.1.19
+
 Snakemake
 
 ### Process Flow
@@ -49,7 +58,7 @@ snakemake -j 20 -w 600 -k --config location=$root_folder --cluster "sbatch --job
 
 Perform joint assembly using SPAdes on the large memory node separately. Then, continue with the second part of the analysis including aligning sub-sample reads back to combined contigs
 
-'''
+```
 snakemake -j 20 -w 600 -k --config location=$root_folder --cluster "sbatch --job-name={params.name} --ntasks=1 --cpus-per-task={threads} --partition={params.partition} --mem={params.mem} -o {params.name}_%j.log" --rerun-incomplete -s Snakefile_toplevel2.py
 ```
 
