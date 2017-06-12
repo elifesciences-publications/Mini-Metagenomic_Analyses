@@ -5,10 +5,11 @@ http://biorxiv.org/content/early/2017/03/07/114496
 
 ## Disclaimer:
 
-All scripts are provided for reference purposes only. There may be file paths hard coded into the scripts such that they will not work on computing clusters setup differently. The bioinformatic pipeline has undergone significant changes as a result of
+All scripts are provided for reference purposes only. There may be file paths hard coded into the scripts such that they will not work on computing clusters set up differently. The bioinformatic pipeline has undergone significant changes as a result of
 1. including newer versions of bioinformatic tools,
 2. incorporating new functionalities, and
 3. taking advantage of more powerful compution infrastructure at Stanford.
+
 As a result, the older version of the bioinformatics pipeline is no longer maintained and is provided as is in order for the reader to get a general idea of the bioinformatic processes. 
 
 ## Contig Assembly Fram Raw Sequencing Reads
