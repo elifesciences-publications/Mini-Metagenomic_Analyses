@@ -87,4 +87,4 @@ A folder containing helper functions to explore contigs and genomes is also incl
 
 ## Questions and Comments
 
-For questions or comments, please contact [Brian Yu](http:/brianyu.org)
+For questions or comments, please contact [Brian Yu](brianyu@stanford.edu)
