@@ -1,3 +1,8 @@
+
+### This code is associated with the paper from Yu et al., "Microfluidic-based mini-metagenomics enables discovery of novel microbial lineages from complex environmental samples". eLife, 2017. http://dx.doi.org/10.7554/eLife.26580
+
+
+
 # Mini-Metagenomic_Analyses
 
 This repository contains the original code used to produce the results in the following publication:
